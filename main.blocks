@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="~ahJRE-a=N.0kwiVhi*i">mySprite</variable><variable type="KIND_SpriteKind" id="=2k*YNT40UmAYOG,T:-i">Player</variable><variable type="KIND_SpriteKind" id="Y8qw+(v9BeKZbTRZDo3X">Projectile</variable><variable type="KIND_SpriteKind" id="~nRix3n}Hqj=s%2J9{z%">Food</variable><variable type="KIND_SpriteKind" id="x=-@[lgqMBS^RnW72aPe">Enemy</variable></variables><block type="pxt-on-start" id="/|a#:^PZt958k|M!qy#3" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="`[:Ti,*J=asYje;6?la~"><field name="VAR" id="~ahJRE-a=N.0kwiVhi*i">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="m~!#CC(pE:u!d[[4#)I4"><value name="img"><shadow type="screen_image_picker" id="ZoJOSat|.jH=V040yVYx"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . 3 3 3 3 3 3 3 3 3 . . . . . 
+. . 3 3 . . . . . . 3 3 3 . . . 
+. . . 3 . . . . . . . . 3 . . . 
+. . . 3 . 2 . . . 2 . . . 3 . . 
+. . . 3 . . . . . . . . . 3 . . 
+. . . 3 . . . . . . . . . 3 . . 
+. . 3 . . . . . . . . . . 3 . . 
+. . . 3 . . 2 2 2 2 . . . 3 . . 
+. . . 3 . . . . . . . . 3 . . . 
+. . . . 3 3 . . . . . 3 3 . . . 
+. . . . . 3 3 3 3 3 3 3 . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"ZoJOSat|.jH=V040yVYx"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="ma{;TyNi{e@2C2~;7*Ws"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesaytext" id="vCOWQr)ZZ%vEnuzkEx5A"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="this"><block type="variables_get" id="qjb9QLz*(4rzax1gP{b7"><field name="VAR" id="~ahJRE-a=N.0kwiVhi*i">mySprite</field></block></value><value name="text"><shadow type="text" id="]@T%8smF_GR:puCjE2_:"><field name="TEXT">;c</field></shadow></value></block></next></block></statement></block></xml>
